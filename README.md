@@ -56,3 +56,8 @@ With the latest updates to our back end, we pushed in February 2017, we introduc
 	* You can use four new app settings to specify a custom image `DOCKER_REGISTRY_SERVER_URL`, `DOCKER_REGISTRY_SERVER_USERNAME`, `DOCKER_REGISTRY_SERVER_PASSWORD`, `DOCKER_CUSTOM_IMAGE_NAME`
 	* If you are getting an image from DockerHub or some public registry, you can skip the username and password. Otherwise you need to specify them as well
 	* The `DOCKER_CUSTOM_IMAGE_NAME` is where you specify the tag used for the image. We are downloading the image at runtime on first request to your site.
+
+## More Links
+* [Introduction to App Service on Linux](https://docs.microsoft.com/en-us/azure/app-service-web/app-service-linux-intro) 
+* [Creating Web Apps in App Service on Linux](https://docs.microsoft.com/en-us/azure/app-service-web/app-service-linux-how-to-create-a-web-app)
+* [Azure App Service Web Apps on Linux FAQ](https://docs.microsoft.com/en-us/azure/app-service-web/app-service-linux-faq) 
