@@ -7,8 +7,8 @@ With the latest updates to our back end, we pushed in March 2017, we introduced 
 * Added Websockets support.
 * Auto detection of port for custom containers.
 	* Platform will not autodetect the port, if a PORT app setting is defined.
-* Bug fixes and performance updates
-* Security and Reliability improvements
+* Bug fixes and performance updates.
+* Security and Reliability improvements.
 
 ## February 2017 Release ##
 
