@@ -9,6 +9,7 @@ With the latest updates to our back end, we pushed in March 2017, we introduced 
 	* Platform will not autodetect the port, if a PORT app setting is defined.
 * Bug fixes and performance updates.
 * Security and Reliability improvements.
+* Added .Net Core 1.1 to the list of built-in images.
 
 ## February 2017 Release ##
 
