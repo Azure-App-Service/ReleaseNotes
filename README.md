@@ -13,6 +13,7 @@ With the latest updates to our back end, we pushed in May 2017, we introduced th
 * Automatic PORT detection for custom images
 * Testing in Production (TiP)
 * Always ON functionality to keep your site always warm and avoid cold start.
+* PHP composer support for 7.0 apps through Kudu.
 * Nodejs and docker logs will respect the Diagnostics logging setting. So you now need to turn it on if you want to see the logs. We will make this the behavior for the other stacks a bit later.
 
 
