@@ -2,6 +2,20 @@
 
 With the latest updates to our back end, we pushed in March 2017, we introduced the following new features and improvements:
 
+## May 2017 Release ##
+* Stability, reliability and perf fixes in our platform code and security updates for OS.
+* Site restart from portal/API will perform hard restart of the app and the kudu site
+* Site slots and slot swaps will now work
+* Auto scale should now work with CPU and memory metrics.
+* SSH to app container from Kudu. Use {kudu site}/webssh/host or the SSH option under the Debug Console menu to get to this.
+* Docker image CI/CD from DockerHub. In DockerHub webhooks, use kudu site URL with basic auth publishing credentials to call to {kudu site}/docker/hook. Additionally add appsetting DOCKER_ENABLE_CI=true
+* Wildcard domain name support
+* Automatic PORT detection for custom images
+* Testing in Production (TiP)
+* Always ON functionality to keep your site always warm and avoid cold start.
+* Nodejs and docker logs will respect the Diagnostics logging setting. So you now need to turn it on if you want to see the logs. We will make this the behavior for the other stacks a bit later.
+
+
 ## March 2017 Release ##
 
 * Added Websockets support.
