@@ -1,6 +1,6 @@
 # Azure App Service on Linux Release Notes #
 
-With the latest updates to our back end, we pushed in March 2017, we introduced the following new features and improvements:
+With the latest updates to our back end, we pushed in May 2017, we introduced the following new features and improvements:
 
 ## May 2017 Release ##
 * Stability, reliability and perf fixes in our platform code and security updates for OS.
